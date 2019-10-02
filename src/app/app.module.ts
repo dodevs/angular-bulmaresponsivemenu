@@ -11,7 +11,7 @@ import { CoreModule } from './core/core.module';
 const ROUTES: Routes = [
   {
     path: '', component: LayoutComponent, children: [
-      { path: '', loadChildren: './dashboard/dashboard.module#DashboardModule'}
+      { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule'},
     ]
   }
 ]
