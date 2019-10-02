@@ -10,6 +10,8 @@ import { FooterComponent } from './components/footer/footer.component';
     LayoutComponent,
     FooterComponent
   ],
+  imports: [
+  ],
   exports: [
     LayoutComponent
   ]
