@@ -1,0 +1,8 @@
+.menu {
+  max-width: calc(100vh - 20%);
+  z-index: 2;
+  position: absolute;
+  top: 29px;
+  background-color: white;
+  transition: 3s all ease-in-out;
+}

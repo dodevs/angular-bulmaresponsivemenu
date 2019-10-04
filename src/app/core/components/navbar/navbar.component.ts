@@ -17,4 +17,8 @@ export class NavbarComponent {
     this.navBurger.nativeElement.classList.toggle('is-active');
     this.navMenu.nativeElement.classList.toggle('is-active');
   }
+
+  toggleAsideMenu() {
+    
+  }
 }
