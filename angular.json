@@ -23,6 +23,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/styles/bulma_custom.scss",
               "node_modules/bulma/css/bulma.min.css",
               "src/styles.css",
               "src/styles.scss"
